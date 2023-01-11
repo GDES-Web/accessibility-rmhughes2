@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>HTML accessibility: Task 4</title>
+    <style>
+      body {
+        background-color: #fff;
+        color: #333;
+        font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+        padding: 1em;
+        margin: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        width: 400px;
+        margin: 0 auto;
+      }
+
+      main img {
+        display: block;
+        width: 250px;
+        margin: 20px auto;
+        box-shadow: 5px 5px 0 black;
+      }
+
+      header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background-image: url("../accessibility-rmhughes2/Assignment_4_img/star.png")
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Groovy images</h1>
+    </header>
+    <main>
+      <img src="../accessibility-rmhughes2/Assignment_4_img/assignment_4_accesibility_html.jpeg" alt="A photograph of 
+      a japanese teapot sitting on the windowsill. The teapot 
+      is small and blackish/brown with a high level of sheen." title="Teapot in Windowsill">
+      <img src="../accessibility-rmhughes2/Assignment_4_img/football.jpeg" alt="A photo of a traditional football. 
+      Referred to as soccer by American countries, the black and white patterned 
+      ball sits in a bright, sunny field" title="A closeup photo of a foot/soccer ball">
+    </main>
+  </body>
+
+</html>
