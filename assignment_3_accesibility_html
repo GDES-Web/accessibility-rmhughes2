@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>HTML accessibility: Task 3</title>
+    <style>
+      body {
+        background-color: #fff;
+        color: #333;
+        font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+        padding: 1em;
+        margin: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <p>
+       Click the links below for more information about our activities: 
+       <ul>
+            <li><label for="link 1"><a href="/fundraising" aria>Fundraising Page</a></li>
+            <li><label for="link 2"><a href="/education">Education Page</a></label></li>
+            <li><label for="link 3"><a href="/resources/sponsorship.pdf">Sponsorhips Page</a></label></li>
+            <li><label for="link 4"><a href="/resources/assessments.docx">Assesments</a></label></li>
+        </ul>
+    </p>
+
+  </body>
+
+</html>
