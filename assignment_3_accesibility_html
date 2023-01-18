@@ -11,25 +11,20 @@
         padding: 1em;
         margin: 0;
       }
-
       * {
         box-sizing: border-box;
       }
     </style>
   </head>
-
   <body>
-
     <p>
        Click the links below for more information about our activities: 
        <ul>
-            <li><label for="link 1"><a href="/fundraising" aria>Fundraising Page</a></li>
-            <li><label for="link 2"><a href="/education">Education Page</a></label></li>
-            <li><label for="link 3"><a href="/resources/sponsorship.pdf">Sponsorhips Page</a></label></li>
-            <li><label for="link 4"><a href="/resources/assessments.docx">Assesments</a></label></li>
+            <li><label for="link1"><a href="/fundraising" aria>Fundraising Page</a></li>
+            <li><label for="link2"><a href="/education">Education Page</a></label></li>
+            <li><label for="link3"><a href="/resources/sponsorship.pdf">Sponsorhips Page</a></label></li>
+            <li><label for="link4"><a href="/resources/assessments.docx">Assesments</a></label></li>
         </ul>
     </p>
-
   </body>
-
 </html>

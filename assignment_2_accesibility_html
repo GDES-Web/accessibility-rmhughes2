@@ -11,11 +11,9 @@
         padding: 1em;
         margin: 0;
       }
-
       * {
         box-sizing: border-box;
       }
-
       form {
         width: 400px;
       }
@@ -28,11 +26,10 @@
       }
     </style>
   </head>
-
   <body>
     <div id="form">
         <form>
-            <div id="personal data">
+            <div id="personal-data">
                 <ul>
                     <li>
                       <label for="name">Fill in your name:</label>
@@ -40,7 +37,7 @@
                     </li>
                     <li>
                       <label for="age">Age</label>
-                      <input type="number"name="age" id="age">
+                      <input type="number" name="age" id="age">
                     </li>
                     <li>
                       <label for="email">Email</label>
